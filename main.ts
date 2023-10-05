@@ -17,7 +17,7 @@ input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P13, 1)
   basic.showString('Red')
   basic.pause(1000)
-  
+
   pins.digitalWritePin(DigitalPin.P14, 1)
   basic.showString('Blue')
   basic.pause(1000)
